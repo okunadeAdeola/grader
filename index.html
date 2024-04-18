@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="shadow shadow-light"> -->
+        
+        <section class="col-6 sm-12 mx-2 px-3 sm-12 d-flex pt-4 bg-dark w-100" id="section">
+            <div class="row">
+
+            
+           
+    <div>
+        <div class="col-lg-6 sm-12"><img src="image/rooftopper-looking-down.jpg" alt="" id="firstdiv"></div>
+        
+    </div>
+    <div class="col-6 sm-12 mx-auto">
+        <p style="color: white; font-size: 30PX;"> Cumulative Grading system</p>
+        <div id="font" style="background-color: red; color: white; border-radius: 3px;">Your Cumulative score can't be more than 100%</div>
+        <div class="row" id="row">
+            <div class="col-6" id="col">
+                <input type="text" class="form-control my-3" placeholder="Student name" required id="student" maxlength="9">
+                <input type="number" class="form-control my-3" placeholder="English score" required id="Eng">
+                <input type="number" class="form-control my-3" placeholder="Maths score" required id="math">
+                <input type="number" class="form-control my-3" placeholder="Physics score" required id="phy">
+            </div>
+            <div class="col-6" id="col2">
+                <input type="number" class="form-control my-3" placeholder="Enter student ID" required id="yor">
+                <input type="number" class="form-control my-3" placeholder="Biology score" required id="bio">
+                <input type="number" class="form-control my-3" placeholder="Geography score" required id="geo">
+                <input type="number" class="form-control my-3" placeholder="chemistry score" required id="che">
+
+            </div>
+            <button class="btn btn-dark" onclick="calc()">Check Result</button>
+            <div class="btn btn-danger text-warning p-2 my-3">
+                <p id="welcome"></p>
+                <p id="remark"></p>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+    
+<!-- </div> -->
+
+<!-- <audio src="./audios/songC.mp3"></audio> -->
+    <script src="bootstrap.js"></script>
+    <script src="grading.js"></script>
+</body>
+</html>
